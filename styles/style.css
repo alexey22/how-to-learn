@@ -16,6 +16,7 @@
   /* выше установили ограничения для секции */
   position: relative;
   display: flex;
+  background-color: #f2f2f2;
 }
 
 .header__logo {
