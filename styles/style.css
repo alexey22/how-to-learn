@@ -235,11 +235,13 @@
 .section-title_theme_dark {
   color: white;
   z-index: 1;
+  position: relative;
 }
 
 .section-subtitle_theme_dark {
   color: white;
   z-index: 1;
+  position: relative;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -249,6 +251,7 @@
   margin-right: 0;
   margin-top: 80px;
   z-index: 1;
+  position: relative;
 }
 
 .footer {
@@ -258,8 +261,7 @@
   box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 40px;
-  /*свойство display:flex; присваивается элементу с классом .footer__colums
-  потому что именно он содержит колонки*/
+  display: flex;
 }
 
 .logo_place_footer {
@@ -269,8 +271,8 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .footer__column_content_copyright {
@@ -282,6 +284,9 @@
 
 .footer__author {
   margin: 18px 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
 }
 
 .footer__column-heanding {
