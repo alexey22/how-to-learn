@@ -1,5 +1,7 @@
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/rotation/rotation.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
@@ -83,8 +85,9 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 
-
+/*
 div, article, h4, p, iframe {
   border: solid 1px green;
 }
+*/
 
